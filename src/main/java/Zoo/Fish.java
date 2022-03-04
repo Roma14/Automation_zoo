@@ -11,4 +11,9 @@ public class Fish implements Organism {
     public  String movement() {
         return "swim";
     }
+
+    @Override
+    public void printInfo() {
+        System.out.printf("Breath: %s.\nMovement: %s.", breath(), movement());
+    }
 }
