@@ -9,6 +9,10 @@ public class Bird implements Organism {
     @Override
     public String movement() {
         return "fly";
+    }
 
+    @Override
+    public void printInfo() {
+        System.out.printf("Breath: %s.\n Movement: %s.", breath(), movement());
     }
 }

@@ -6,7 +6,8 @@ public class Crow extends Bird {
         return "steal shiny things";
     }
 
+    @Override
     public void  printInfo() {
-        System.out.printf("Type: Crow.\t Breath: %s.\t Movement: %s.\t Hobby: %s\n", breath(), movement(), hobby());
+        System.out.printf("Type: Crow.\nBreath: %s.\nMovement: %s.\nHobby: %s\n", breath(), movement(), hobby());
     }
 }

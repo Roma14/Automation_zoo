@@ -7,8 +7,9 @@ public class Lion extends Beast {
         return "roar";
     }
 
+    @Override
     public void printInfo() {
-        System.out.printf("Type: Lion.\t Breath: %s.\t Movement: %s.\t Activity: %s\n", breath(), movement(),
+        System.out.printf("Type: Lion.\nBreath: %s.\nMovement: %s.\nActivity: %s.\n", breath(), movement(),
                 activity());
     }
 }
