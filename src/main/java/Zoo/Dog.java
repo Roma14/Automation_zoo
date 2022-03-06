@@ -4,7 +4,7 @@ public class Dog extends Beast {
     public void sound() {
         System.out.println("bark");
     }
-    private static String purpose() {
+    private String purpose() {
         return "To be a good boy";
     }
 
