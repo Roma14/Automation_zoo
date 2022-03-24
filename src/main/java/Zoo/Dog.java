@@ -8,8 +8,9 @@ public class Dog extends Beast {
         return "To be a good boy";
     }
 
-    public void  printInfo() {
-        System.out.printf("Type: Dog.\t Breath: %s.\t Movement: %s.\t Main activity: %s\n", breath(), movement(),
+    @Override
+    public void printInfo() {
+        System.out.printf("Type: Dog.\nBreath: %s.\nMovement: %s.\nMain activity: %s.\n", breath(), movement(),
                 purpose());
     }
 

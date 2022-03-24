@@ -11,4 +11,9 @@ public class Beast implements Organism {
     public  String movement() {
         return "run";
     }
+
+    @Override
+    public  void printInfo() {
+        System.out.printf("Breath: %s.\n Movement: %s.", breath(), movement());
+    }
 }

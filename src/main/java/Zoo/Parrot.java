@@ -6,8 +6,9 @@ public class Parrot extends Bird{
         return "repeat bad words";
     }
 
-    public void  printInfo() {
-        System.out.printf("Type: Parrot.\t Breath: %s.\t Movement: %s.\t Superpower: %s\n", breath(), movement(),
+    @Override
+    public void printInfo() {
+        System.out.printf("Type: Parrot.\nBreath: %s.\nMovement: %s.\nSuperpower: %s.\n", breath(), movement(),
                 ability());
     }
 }

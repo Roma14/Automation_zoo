@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Lion lion1 = new Lion();
-        Dog dog1 = new Dog();
-        Carp carp1 = new Carp();
-        Parrot parrot1 = new Parrot();
-        Crow crow1 = new Crow();
+        Beast lion1 = new Lion();
+        Beast dog1 = new Dog();
+        Fish carp1 = new Carp();
+        Bird parrot1 = new Parrot();
+        Bird crow1 = new Crow();
 
         int menuNumber;
         Scanner scanner = new Scanner(System.in);
