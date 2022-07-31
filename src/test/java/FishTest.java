@@ -26,7 +26,7 @@ public class FishTest {
         assertTrue(fish1 instanceof Fish);
     }
 
-    @Test(groups = "negative", enabled = false)
+    @Test(groups = "negative", enabled = true)
     public void FishClassCheckWrong() {
         fail();
     }
