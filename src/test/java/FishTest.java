@@ -27,8 +27,11 @@ public class FishTest {
     }
 
     @Test(groups = "negative", enabled = true)
-    public void FishClassCheckWrong() {
-        fail();
+    public void FailedTestcase() {
+        int a = 10;
+        int b = 5;
+        int c = a + b;
+        assertTrue(c == 16, "Something went wrong!");
     }
 
 }
