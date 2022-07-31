@@ -31,7 +31,7 @@ public class FishTest {
         int a = 10;
         int b = 5;
         int c = a + b;
-        assertTrue(c == 16, "Something went wrong!");
+        assertTrue(c == 17, "Something went wrong!");
     }
 
 }
